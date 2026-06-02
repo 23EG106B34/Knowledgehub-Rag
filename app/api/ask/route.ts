@@ -51,7 +51,7 @@ const buildFallbackAnswer = ({
     if (selectedCollection) {
       return `I could not reach the configured AI provider, so here is a local fallback for ${selectedCollection.name}. ${
         selectedCollection.description
-      }. Relevant notes: ${topicData.join(' ')} Question received: "${question}".`;
+      }. Relevant notes: ${topicData.join(' ')}. Question received: "${question}".`;
     }
   }
 
